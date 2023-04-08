@@ -1,4 +1,4 @@
-# password_genrator
+# password_generator
 
 simply python docerized app created for generate random password based on two args length and character sets
 
