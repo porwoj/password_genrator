@@ -1,6 +1,5 @@
 import secrets
 import string
-import sys
 import argparse
 
 parser = argparse.ArgumentParser()
@@ -14,7 +13,7 @@ letters = string.ascii_letters
 digits = string.digits
 specials = string.punctuation
 
-chars_pot=''
+chars_pot = ''
 for sub in args.chars:
     if sub == 'letters':
         chars_pot += letters
